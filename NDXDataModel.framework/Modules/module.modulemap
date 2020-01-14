@@ -1,0 +1,11 @@
+framework module NDXDataModel {
+  umbrella header "NDXDataModel.h"
+
+  export *
+  module * { export * }
+}
+
+module NDXDataModel.Swift {
+    header "NDXDataModel-Swift.h"
+    requires objc
+}
